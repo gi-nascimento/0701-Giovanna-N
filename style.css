@@ -28,18 +28,38 @@ main img{
     height: 400px;
     margin-top: 20px;
 }
-section{
-    background-color: gray;
+footer div{
+    background-color: gainsboro;
 }
-section img{
-    width: 270px;
+footer div img{
     height: 180px;
     margin-left: 48px;
     margin-top: 20px;
+    width: 50%;
+
 }
-section h3{
+footer div h3{
     margin-left: 48px;
 }
-section p{
+div p{
     margin-right: 50px;
+}
+footer div h1{
+    margin-top: 25px;
+}
+
+footer{
+    float: left;
+    display: flex;
+}
+
+footer div p{
+    margin-left: 20px;
+}
+
+footer div button{
+    margin-left: 20px;
+    border-radius: 25px;
+    height: 2em;
+    width: 5em;
 }
