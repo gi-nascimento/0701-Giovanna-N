@@ -63,3 +63,11 @@ footer div button{
     height: 2em;
     width: 5em;
 }
+
+footer div:first-child h3{
+    color: crimson;
+}
+
+footer div:last-child h3{
+    color: indianred;
+}
