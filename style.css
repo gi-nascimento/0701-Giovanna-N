@@ -41,7 +41,7 @@ footer div img{
 footer div h3{
     margin-left: 48px;
 }
-div p{
+div p {
     margin-right: 50px;
 }
 footer div h1{
@@ -82,3 +82,5 @@ footer div:nth-last-child(2) h3{
 footer div button:last-child{
     background-color: rgb(42, 165, 138);
 }
+
+/*Sor tive dificuldade em mudar as cores do botão e dos paragráfos*/
