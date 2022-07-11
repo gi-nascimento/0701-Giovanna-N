@@ -58,10 +58,12 @@ footer div p{
 }
 
 footer div button{
-    margin-left: 20px;
+    margin-left: 30px;
     border-radius: 25px;
     height: 2em;
     width: 5em;
+    border: none;
+    font-size: 15px;
 }
 
 footer div:first-child h3{
@@ -73,5 +75,33 @@ footer div:last-child h3{
 }
 
 footer div:nth-last-child(2) h3{
-    color: aqua;
+    color: blue;
+}
+
+footer div button:first-of-type :hover{
+    background-color: darkkhaki;
+}
+
+footer div button:last-child{
+    background-color: rgb(42, 165, 138);
+}
+
+footer button :nth-last-child(2){
+    background-color: darkcyan;
+}
+
+footer div button:first-child{
+    background-color: coral;
+}
+
+footer div p :first-child{
+     background-color: blue;
+}
+
+footer div p :last-child{
+    background-color: darkkhaki;
+}
+
+footer div p :nth-last-child(2){
+    background-color: magenta;
 }
