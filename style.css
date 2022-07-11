@@ -65,9 +65,13 @@ footer div button{
 }
 
 footer div:first-child h3{
-    color: crimson;
+    color: blueviolet;
 }
 
 footer div:last-child h3{
-    color: whitesmoke;
+    color: deeppink;
+}
+
+footer div:nth-last-child(2) h3{
+    color: aqua;
 }
