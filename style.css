@@ -55,6 +55,7 @@ footer{
 
 footer div p{
     margin-left: 20px;
+    color: darkcyan;
 }
 
 footer div button{
@@ -78,30 +79,6 @@ footer div:nth-last-child(2) h3{
     color: blue;
 }
 
-footer div button:first-of-type :hover{
-    background-color: darkkhaki;
-}
-
 footer div button:last-child{
     background-color: rgb(42, 165, 138);
-}
-
-footer button :nth-last-child(2){
-    background-color: darkcyan;
-}
-
-footer div button:first-child{
-    background-color: coral;
-}
-
-footer div p :first-child{
-     background-color: blue;
-}
-
-footer div p :last-child{
-    background-color: darkkhaki;
-}
-
-footer div p :nth-last-child(2){
-    background-color: magenta;
 }
